@@ -2,7 +2,7 @@ version: '2'
 services:
   master:
     build: .
-    image: DockerSam/jenkins:latest
+    image: dockersam/jenkins:latest
     restart: unless-stopped
     hostname: jenkins
     ports:
