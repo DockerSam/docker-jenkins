@@ -9,7 +9,7 @@ object Temporizador {
     while (contador < 3) { Thread sleep 1000; args() }
   }
   def elTiempoVuela() {
-    println("el tiempo pasa volando...")
+    println("el tiempo pasa volando..." + contador)
     contador += 1
   }
   def main(args: Array[String]) {
